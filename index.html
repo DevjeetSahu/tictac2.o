@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tic Tac Toe</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="msg">
+		<p className="intromsg">Welcome to my Tic-tac-toe Game !!!</p>
+	</div>
+	<div class="button">
+		<button onClick="startGame2()" class="btn">2 players</button>
+		<button onClick="startGame()" class="btn">Vs computer</button>
+	</div>
+	<div class="board">
+		<button class="cell" id="0"></button>
+		<button class="cell" id="1"></button>
+		<button class="cell" id="2"></button>
+		<button class="cell" id="3"></button>
+		<button class="cell" id="4"></button>
+		<button class="cell" id="5"></button>
+		<button class="cell" id="6"></button>
+		<button class="cell" id="7"></button>
+		<button class="cell" id="8"></button>
+	</div>
+	<div class="endgame">
+		<div class="text"></div>
+		<div id="plmsg"></div>
+	</div>
+	<div class="button">
+		<button onClick="startGame2()" class="btn" id="restart">Restart 2 players</button>
+		<button onClick="startGame()" class="btn" id="replay">Restart Vs Computer</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

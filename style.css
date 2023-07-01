@@ -1,0 +1,56 @@
+.cell{
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px #888;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.25em;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+	padding: 2%;
+}
+.cell:hover{
+    box-shadow: 0px 0px 16px #888;
+    cursor: pointer;
+}
+.board{
+	display: grid;
+    grid-template-columns: repeat(3,6rem);
+    place-items: center;
+    justify-content: center;
+}
+.btn {
+  align-content: center;
+  color: beige;
+  background-color: rgb(9, 10, 10);
+  border-radius: 30px;
+  padding: 0.5% 2%;
+  font-size: large;
+  margin: 1% 2%;
+}
+.btn:hover {
+  color: rgb(241, 207, 16);
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 2%;
+}
+.text {
+  text-align: center;
+  font-size: 40px;
+}
+#plmsg{
+  text-align: center;
+  font-size: 40px;
+}
+.msg {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(15, 216, 149);
+}
