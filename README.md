@@ -5,3 +5,4 @@ For 2 players each player play their turn and if anyone wins message is displaye
 For Vs computer mode I have implemented the minimax algorithm to make an inevitable bot so the best possible case for you is to draw the game :(
 Keep Playing & Enjoy :)
 
+https://devjeetsahu.github.io/tictac2.o/
